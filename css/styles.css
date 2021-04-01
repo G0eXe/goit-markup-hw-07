@@ -71,12 +71,14 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 90px;
-
-  color: var(--accent-color);
 }
 
-.logo-text-header {
-  color: black;
+.logo_theme-light {
+  color: var(--main-title-color);
+}
+
+.logo__accent-text {
+  color: var(--accent-color);
 }
 
 .menu .link.current {
@@ -724,7 +726,7 @@ img {
   justify-content: space-between;
 }
 
-.logo-text-footer {
+.logo_theme-dark {
   color: var(--add-white-color);
 }
 
