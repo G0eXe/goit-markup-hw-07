@@ -732,7 +732,7 @@ img {
   margin-top: 20px;
 }
 
-.address-info {
+.address__info {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
@@ -842,7 +842,7 @@ img {
 
 /* FOOTER EMAIL FORM */
 
-.footer-form-title {
+.footer-form__title {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
@@ -858,7 +858,7 @@ img {
   align-items: center;
 }
 
-.footer-email-input {
+.footer-form__email-input {
   width: 358px;
   height: 50px;
 
@@ -873,7 +873,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-email-input:focus {
+.footer-form__email-input:focus {
   border-color: var(--accent-color);
   outline: none;
 }
@@ -891,7 +891,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-button {
+.footer-form__button {
   min-width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -909,7 +909,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-button-text {
+.footer-form__button-text {
   font-family: var(--add-white-color);
   font-weight: bold;
   font-size: 16px;
@@ -924,12 +924,12 @@ img {
   margin-right: 10px;
 }
 
-.footer-button-icon {
+.footer-form__button-icon {
   fill: var(--add-white-color);
 }
 
-.footer-form-button:hover,
-.footer-form-button:focus {
+.footer-form__button:hover,
+.footer-form__button:focus {
   background: #188ce8;
 }
 
