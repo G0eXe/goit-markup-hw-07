@@ -46,6 +46,20 @@ img {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* =============== HEADER ===============  */
 
 .header {
@@ -608,20 +622,6 @@ img {
 }
 
 /* ============ PORTFOLIO CARDS ============ */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -745,7 +745,7 @@ img {
   color: var(--add-white-color);
 }
 
-.footer-mail-link {
+.footer-contacts__link {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
@@ -758,30 +758,12 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-mail-link:hover,
-.footer-mail-link:focus {
+.footer-contacts__link:hover,
+.footer-contacts__link:focus {
   color: var(--accent-color);
 }
 
-.footer-phone-link {
-  font-family: var(--main-font);
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-phone-link:hover,
-.footer-phone-link:focus {
-  color: var(--accent-color);
-}
-
-.footer-mail {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
