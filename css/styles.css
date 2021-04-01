@@ -251,13 +251,13 @@ img {
   margin-top: -30px;
 }
 
-.features-item {
+.features-list__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.features-icon-wrapper {
+.features-list__icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -266,7 +266,7 @@ img {
   margin-bottom: 30px;
 }
 
-.features-item-title {
+.features-list__item-title {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
@@ -278,7 +278,7 @@ img {
   color: var(--main-title-color);
 }
 
-.features-item-description {
+.features-list__item-description {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
