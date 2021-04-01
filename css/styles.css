@@ -384,7 +384,7 @@ img {
   margin-top: -30px;
 }
 
-.team-item1 {
+.team-item {
   width: 270px;
   background: var(--add-white-color);
 
@@ -397,64 +397,7 @@ img {
   margin-top: 30px;
 }
 
-.team-item2 {
-  width: 270px;
-  background: var(--add-white-color);
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 4px 4px;
-
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.team-item3 {
-  width: 270px;
-  background: var(--add-white-color);
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 4px 4px;
-
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.team-item4 {
-  width: 270px;
-  background: var(--add-white-color);
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 4px 4px;
-
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.team-img1 {
-  width: 270px;
-  height: 260px;
-  border-radius: 0px;
-}
-
-.team-img2 {
-  width: 270px;
-  height: 260px;
-  border-radius: 0px;
-}
-
-.team-img3 {
-  width: 270px;
-  height: 260px;
-  border-radius: 0px;
-}
-
-.team-img4 {
+.team-img {
   width: 270px;
   height: 260px;
   border-radius: 0px;
