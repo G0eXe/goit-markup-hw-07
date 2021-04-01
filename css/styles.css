@@ -192,7 +192,7 @@ img {
   flex-direction: column;
 }
 
-.hero-title {
+.hero__title {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
@@ -226,7 +226,7 @@ img {
   background: #188ce8;
 }
 
-.modal-button-text {
+.modal-button__text {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
