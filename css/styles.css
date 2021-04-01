@@ -39,6 +39,13 @@ img {
   font-style: normal;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* =============== HEADER ===============  */
 
 .header {
@@ -48,11 +55,6 @@ img {
 }
 
 .header .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
   display: flex;
   align-items: center;
 }
@@ -183,11 +185,6 @@ img {
 }
 
 .hero .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -245,13 +242,6 @@ img {
   padding-bottom: 47px;
 }
 
-.features .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .features-list {
   display: flex;
   justify-content: center;
@@ -304,13 +294,6 @@ img {
 .we-doing {
   padding-top: 47px;
   padding-bottom: 94px;
-}
-
-.we-doing .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .we-doing-title {
@@ -378,11 +361,6 @@ img {
 }
 
 .team .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -558,13 +536,6 @@ img {
   padding-bottom: 94px;
 }
 
-.clients .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .clients-title {
   font-family: var(--main-font);
   font-weight: bold;
@@ -706,13 +677,6 @@ img {
   overflow: hidden;
 }
 
-.portfolio .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -812,11 +776,6 @@ img {
 }
 
 .footer .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
   display: flex;
   align-items: baseline;
   justify-content: space-between;
