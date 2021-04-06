@@ -1,13 +1,13 @@
-:root {
+/* :root {
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
   --main-title-color: #212121;
   --accent-color: #2196f3;
   --content-color: #757575;
   --add-white-color: #ffffff;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -37,16 +37,16 @@ img {
 
 .address {
   font-style: normal;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -58,7 +58,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* =============== HEADER ===============  */
 
@@ -918,7 +918,7 @@ img {
 /* ============= END FOOTER =============== */
 
 /* МОДАЛЬНОЕ ОКНО */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -964,7 +964,7 @@ img {
 .modal__close-icon:hover,
 .modal__close-icon:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* ФОРМА МОДАЛЬНОГО ОКНА */
 
