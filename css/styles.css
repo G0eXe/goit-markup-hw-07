@@ -968,7 +968,7 @@ img {
 
 /* ФОРМА МОДАЛЬНОГО ОКНА */
 
-.modal-form {
+/* .modal-form {
   display: flex;
   flex-direction: column;
   padding: 40px 40px;
@@ -1140,4 +1140,4 @@ img {
 .modal-form__btn:hover,
 .modal-form__btn:focus {
   background: #188ce8;
-}
+} */
