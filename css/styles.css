@@ -62,7 +62,7 @@ img {
 
 /* =============== HEADER ===============  */
 
-.header {
+/* .header {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -179,7 +179,7 @@ img {
 .contacts-list__link:hover,
 .contacts-list__link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ============== END HEADER ============== */
 
@@ -223,7 +223,7 @@ img {
   color: var(--add-white-color);
 }
 
-.modal-button {
+/* .modal-button {
   min-width: 200px;
   padding: 10px 32px;
   background: var(--accent-color);
@@ -247,7 +247,7 @@ img {
   line-height: 1.88;
 
   color: var(--add-white-color);
-}
+} */
 
 /* =============== END HERO ================ */
 
