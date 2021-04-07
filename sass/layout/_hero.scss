@@ -11,21 +11,21 @@
     url(../img/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-.hero__title {
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  &__title {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-  padding-left: 240px;
-  padding-right: 240px;
-  margin-bottom: 30px;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-bottom: 30px;
 
-  color: var(--add-white-color);
+    color: var(--add-white-color);
+  }
 }

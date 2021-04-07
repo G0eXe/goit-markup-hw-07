@@ -154,13 +154,13 @@ img {
   opacity: 0;
 }
 
-.current::after {
-  opacity: 1;
+.menu__link::after:hover,
+.menu__link::after :focus {
+  color: var(--accent-color);
 }
 
-.menu__link:hover,
-.menu__link:focus {
-  color: var(--accent-color);
+.current::after {
+  opacity: 1;
 }
 
 .contacts-list {
@@ -191,7 +191,7 @@ img {
 }
 
 .contacts-list__link:hover,
-.contacts-list__link:focus {
+.contacts-list :focus {
   color: var(--accent-color);
 }
 
