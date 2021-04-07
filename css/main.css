@@ -59,6 +59,29 @@ img {
   padding-right: 15px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .logo {
   font-family: var(--second-font);
   font-weight: bold;
@@ -68,8 +91,12 @@ img {
   margin-right: 90px;
 }
 
-.logo_theme-light {
+.logo__theme-light {
   color: var(--main-title-color);
+}
+
+.logo__theme-dark {
+  color: var(--add-white-color);
 }
 
 .logo__accent-text {
@@ -301,15 +328,21 @@ img {
   background: #188ce8;
 }
 
+.section__title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--main-title-color);
+}
+
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
 }
 
 .nav {
@@ -409,12 +442,6 @@ img {
   background-size: cover;
 }
 
-.hero .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .hero__title {
   font-family: var(--main-font);
   font-weight: 900;
@@ -481,17 +508,6 @@ img {
   padding-bottom: 94px;
 }
 
-.we-doing__title {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--main-title-color);
-}
-
 .we-doing-list {
   display: flex;
   align-items: center;
@@ -534,23 +550,6 @@ img {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.team .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.team__title {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--main-title-color);
 }
 
 .team-list {
@@ -638,17 +637,6 @@ img {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.clients__title {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--main-title-color);
 }
 
 .clients-list {

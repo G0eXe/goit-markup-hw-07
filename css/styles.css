@@ -718,16 +718,6 @@ img {
   padding-bottom: 60px;
 }
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.logo_theme-dark {
-  color: var(--add-white-color);
-}
-
 .address {
   margin-top: 20px;
 }

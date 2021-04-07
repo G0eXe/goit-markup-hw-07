@@ -59,6 +59,29 @@ img {
   padding-right: 15px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .logo {
   font-family: var(--second-font);
   font-weight: bold;
@@ -68,8 +91,12 @@ img {
   margin-right: 90px;
 }
 
-.logo_theme-light {
+.logo__theme-light {
   color: var(--main-title-color);
+}
+
+.logo__theme-dark {
+  color: var(--add-white-color);
 }
 
 .logo__accent-text {
@@ -80,11 +107,6 @@ img {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
 }
 
 .nav {
