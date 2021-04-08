@@ -1,2 +1,2 @@
 # goit-markup-hw-07
-Домашнее задание - 6 - HTML+CSS
+Домашнее задание - 7 - HTML+CSS
